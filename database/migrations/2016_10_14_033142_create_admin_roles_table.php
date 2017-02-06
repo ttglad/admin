@@ -6,11 +6,6 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateAdminRolesTable extends Migration
 {
-    /*
-     INSERT  INTO `admin_roles`(`name`,`display_name`,`description`,`created_at`,`updated_at`) VALUES ('root','超级管理员','','2016-03-03 17:05:04','2016-03-11 11:51:31');
-     INSERT  INTO `admin_roles`(`name`,`display_name`,`description`,`created_at`,`updated_at`) VALUES ('admin','管理员','','2016-03-03 17:05:04','2016-03-11 11:51:31');
-     */
-
     /**
      * Run the migrations.
      *
