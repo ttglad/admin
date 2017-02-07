@@ -20,6 +20,7 @@ class CreateAdminUsersTable extends Migration
             $table->string('email', 60)->nullable()->comment('用户邮箱');
             $table->string('phone', 12)->nullable()->comment('用户手机');
             $table->string('password')->comment('用户密码');
+            $table->tinyInteger('status')->default(1)->comment('用户状态，1成功，2失败');
             $table->rememberToken();
             $table->softDeletes();
             $table->timestamps();
