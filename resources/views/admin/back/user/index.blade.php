@@ -10,7 +10,7 @@
         <li><a href="{{ route('admin_home') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">用户管理 - 管理员</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -96,7 +96,7 @@
         </div>
 
     </div>
-@stop
+@endsection
 
 @section('extraPlugin')
 
@@ -105,7 +105,7 @@
     <!--引入Chosen组件-->
     @include('admin.scripts.endChosen')
 
-@stop
+@endsection
 
 @section('afterScript')
     <script type="text/javascript">
@@ -125,4 +125,4 @@
             $('input[type="checkbox"][value=' + value + ']').iCheck('toggle');
         });
     </script>
-@stop
+@endsection

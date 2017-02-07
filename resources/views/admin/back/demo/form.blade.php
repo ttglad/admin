@@ -10,7 +10,7 @@
         <li><a href="{{ Route('admin_home') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">开发演示 - 表单</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -156,7 +156,7 @@
 
     </div>
 
-@stop
+@endsection
 
 @section('extraPlugin')
 
@@ -170,7 +170,7 @@
     @include('admin.scripts.endChosen')
 
 
-@stop
+@endsection
 
 @section('afterScript')
     <script type="text/javascript">
@@ -217,4 +217,4 @@
             });
         });
     </script>
-@stop
+@endsection

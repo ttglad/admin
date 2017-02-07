@@ -10,7 +10,7 @@
         <li><a href="{{ site_url('dashboard', 'admin') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">系统管理 - 系统配置</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -173,7 +173,7 @@
 
     </div>
 
-@stop
+@endsection
 
 @section('extraPlugin')
 
@@ -184,10 +184,10 @@
     <!--引入Chosen组件-->
     @include('admin.scripts.endChosen')
 
-@stop
+@endsection
 
 @section('afterScript')
     <script type="text/javascript">
         @include('admin.scripts.endSinglePic') {{-- 引入单个图片上传与预览JS，依赖于Layer --}}
     </script>
-@stop
+@endsection

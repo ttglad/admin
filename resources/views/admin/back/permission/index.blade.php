@@ -10,7 +10,7 @@
         <li><a href="{{ site_url('dashboard', 'admin') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">用户管理 - 权限</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -46,5 +46,5 @@
             </div>
         </div><!-- /.box-body -->
     </div>
-@stop
+@endsection
 

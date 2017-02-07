@@ -10,7 +10,7 @@
         <li><a href="{{ route('admin_home') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">系统管理 - 系统日志</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -101,12 +101,12 @@
         </div>
 
     </div>
-@stop
+@endsection
 
 @section('extraPlugin')
     <!--引入layer插件-->
     <script src="{{ _asset(ref('layer.js')) }}"></script>
-@stop
+@endsection
 
 @section('afterScript')
     <script type="text/javascript">
@@ -128,4 +128,4 @@
         });
 
     </script>
-@stop
+@endsection

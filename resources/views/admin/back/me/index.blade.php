@@ -10,7 +10,7 @@
         <li><a href="{{ route('admin_home') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">用户管理 - 个人资料</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -68,4 +68,4 @@
         </form>
     </div>
 
-@stop
+@endsection

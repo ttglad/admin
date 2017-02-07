@@ -51,7 +51,7 @@
             }
         }
     </style>
-@stop
+@endsection
 
 @section('content-header')
     @parent
@@ -63,7 +63,7 @@
         <li><a href="{{ Route('admin_home') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">开发演示 - 图标</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
     <div class="row">
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-spock-o"></i> fa-hand-spock-o
                                 </div>
-                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-stop-o"></i> fa-hand-stop-o
+                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-endsection-o"></i> fa-hand-endsection-o
                                     <span class="text-muted">(alias)</span></div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hourglass"></i> fa-hourglass</div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hourglass-1"></i> fa-hourglass-1
@@ -556,7 +556,7 @@
                                 </div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-spock-o"></i> fa-hand-spock-o
                                 </div>
-                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-stop-o"></i> fa-hand-stop-o
+                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-endsection-o"></i> fa-hand-endsection-o
                                     <span class="text-muted">(alias)</span></div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hdd-o"></i> fa-hdd-o</div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-headphones"></i> fa-headphones
@@ -940,7 +940,7 @@
                                 </div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-spock-o"></i> fa-hand-spock-o
                                 </div>
-                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-stop-o"></i> fa-hand-stop-o
+                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-hand-endsection-o"></i> fa-hand-endsection-o
                                     <span class="text-muted">(alias)</span></div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-thumbs-down"></i> fa-thumbs-down
                                 </div>
@@ -1441,7 +1441,7 @@
                                 </div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-step-forward"></i> fa-step-forward
                                 </div>
-                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-stop"></i> fa-stop</div>
+                                <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-endsection"></i> fa-endsection</div>
                                 <div class="col-md-3 col-sm-4"><i class="fa fa-fw fa-youtube-play"></i> fa-youtube-play
                                 </div>
                             </div>
@@ -2040,8 +2040,8 @@
                                 <span class="glyphicon-class">glyphicon glyphicon-pause</span>
                             </li>
                             <li>
-                                <span class="glyphicon glyphicon-stop"></span>
-                                <span class="glyphicon-class">glyphicon glyphicon-stop</span>
+                                <span class="glyphicon glyphicon-endsection"></span>
+                                <span class="glyphicon-class">glyphicon glyphicon-endsection</span>
                             </li>
                             <li>
                                 <span class="glyphicon glyphicon-forward"></span>
@@ -2787,4 +2787,4 @@
         <!-- /.col -->
     </div>
     <!-- /.row -->
-@stop
+@endsection

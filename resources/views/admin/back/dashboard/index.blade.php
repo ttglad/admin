@@ -10,7 +10,7 @@
         <li><a href="{{ route('admin_home') }}"><i class="fa fa-dashboard"></i> 主页</a></li>
         <li class="active">控制面板 - 概述</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
     <!-- Small boxes (Stat box) -->
@@ -77,4 +77,4 @@
             </div>
         </div><!-- ./col -->
     </div><!-- /.row -->
-@stop
+@endsection

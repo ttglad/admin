@@ -1,13 +1,13 @@
 @extends('admin.layout._base')
 
 @section('hacker_header')
-@stop
+@endsection
 
-@section('title') 登录 - {{ config('site.title') }} @stop
+@section('title') 登录 - {{ config('site.title') }} @endsection
 
 @section('meta')
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-@stop
+@endsection
 @section('head_css')
     <link href="{{ _asset(ref('bootstrap.css')) }}" rel="stylesheet" type="text/css"/>
     <!-- Font Awesome Icons -->
@@ -21,7 +21,7 @@
     <link href="{{ _asset('back/dist/css/skins/skin-black.min.css') }}" rel="stylesheet" type="text/css" />
     -->
     <link href="{{ _asset(ref('icheck_blue.css')) }}" rel="stylesheet" type="text/css"/>
-@stop
+@endsection
 
 @section('head_js')
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -31,9 +31,9 @@
     <script src="{{ _asset(ref('respond.js')) }}"></script>
     <![endif]-->
     @parent
-@stop
+@endsection
 
-@section('body_attr') class="login-page"@stop
+@section('body_attr') class="login-page"@endsection
 
 @section('body')
 
@@ -76,7 +76,7 @@
             </form>
         </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
-@stop
+@endsection
 
 @section('afterBody')
 
@@ -95,7 +95,7 @@
             });
         });
     </script>
-@stop
+@endsection
 
 @section('hacker_footer')
-@stop
+@endsection

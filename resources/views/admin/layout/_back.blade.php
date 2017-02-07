@@ -33,7 +33,7 @@
     <script src="{{ _asset(ref('respond.js')) }}"></script>
     <![endif]-->
     @parent
-@stop
+@endsection
 
 @section('body_attr') class="skin-black sidebar-mini"@stop
 
@@ -112,7 +112,7 @@
             <strong>Copyright &copy; 2015-{{ date('Y') }} {{ admin_version() }}</strong>
         </footer>
 
-    @stop
+    @endsection
 
     @section('afterBody')
         <!-- Control Sidebar -->
@@ -171,9 +171,9 @@
 @section('extraSection')
 @show{{-- 补充额外的一些东东，不一定是JS，可能是HTML --}}
 
-@stop
+@endsection
 
 
 @section('hacker_footer')
 
-@stop
+@endsection

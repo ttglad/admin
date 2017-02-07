@@ -11,7 +11,7 @@
         <li><a href="{{ route('admin_role') }}">用户管理 - 角色</a></li>
         <li class="active">修改角色</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -91,14 +91,14 @@
         </div>
     </form>
 
-@stop
+@endsection
 
 @section('extraPlugin')
 
     <!--引入iCheck组件-->
     <script src="{{ _asset(ref('icheck.js')) }}" type="text/javascript"></script>
 
-@stop
+@endsection
 
 
 @section('afterScript')
@@ -120,4 +120,4 @@
             $('input[name="permissions[]"][value=' + value + ']').iCheck('toggle');
         });
     </script>
-@stop
+@endsection

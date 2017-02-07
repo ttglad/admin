@@ -11,7 +11,7 @@
         <li><a href="{{ route('admin_user') }}">用户管理 - 管理员</a></li>
         <li class="active">新增管理员</li>
     </ol>
-@stop
+@endsection
 
 @section('content')
 
@@ -110,7 +110,7 @@
         </div>
     </form>
 
-@stop
+@endsection
 
 @section('extraPlugin')
 
@@ -119,7 +119,7 @@
     <!--引入Chosen组件-->
     @include('admin.scripts.endChosen')
 
-@stop
+@endsection
 
 
 @section('afterScript')
@@ -131,4 +131,4 @@
         });
 
     </script>
-@stop
+@endsection

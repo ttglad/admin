@@ -43,7 +43,7 @@
             right: 10px;
         }
     </style>
-@stop
+@endsection
 
 @section('mainLayerCon')
 
@@ -64,7 +64,7 @@
         <button type="submit" class="btn btn-primary" id="uploadSubmit">上传</button>
     </div>
 </form>
-@stop
+@endsection
 
 @section('endLayerJS')
 <script src="{{ _asset(ref('layer.js')) }}"></script>{{-- 加载layer插件 --}}
@@ -110,6 +110,6 @@
         $('#uploadForm').ajaxForm(options);
     });
 </script>
-@stop
+@endsection
 
 
